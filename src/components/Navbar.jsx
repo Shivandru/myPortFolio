@@ -160,7 +160,7 @@ const Navbar = () => {
             </Drawer>
           </>
         ) : (
-          <Breadcrumb spacing="4vw" separator=" ">
+          <Breadcrumb spacing={{ md: "3vw", lg: "4vw" }} separator=" ">
             <BreadcrumbItem
               fontWeight="700"
               color="#E53E3E"
@@ -168,7 +168,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#home"
@@ -184,7 +184,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#aboutMe"
@@ -200,7 +200,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#mySkills"
@@ -216,7 +216,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#experience"
@@ -232,7 +232,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#myProjects"
@@ -248,7 +248,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href="#contact"
@@ -265,7 +265,7 @@ const Navbar = () => {
                 color: "black",
               }}
               className="vibrate-1"
-              fontSize="20px"
+              fontSize={{md:"15px",lg:"20px"}}
             >
               <BreadcrumbLink
                 href={MyResume}

@@ -18,8 +18,8 @@ const Home = () => {
       <Flex
         w="100%"
         h={{ base: "auto", md: "auto", lg: "auto" }}
-        justify={{ base: "center", md: "space-around", lg: "space-around" }}
-        direction={{ base: "column", md: "row", lg: "row" }}
+        justify={{ base: "center", md: "center", lg: "space-around" }}
+        direction={{ base: "column", md: "column", lg: "row" }}
         align={{ base: "center", md: "center", lg: "center" }}
         mt="15vh"
       >
