@@ -20,7 +20,7 @@ const Type = ({ strings }) => {
   }, [strings]);
   return (
     <>
-      <Text ref={typedTextRef} fontSize="xl" fontWeight="bold" />
+      <Text ref={typedTextRef} fontSize={["md","md","lg","lg","xl","2xl"]} fontWeight="bold" />
     </>
   );
 };

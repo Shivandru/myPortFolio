@@ -67,8 +67,6 @@ const Navbar = () => {
         h="10vh"
         boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
         align="center"
-        pr="5vw"
-        pl="5"
         pos="fixed"
         top="0px"
         borderRadius="8px"
@@ -98,7 +96,6 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "#E53E3E",
               }}
-              mr="5vw"
             >
               <HamburgerIcon />
             </Button>
@@ -160,7 +157,10 @@ const Navbar = () => {
             </Drawer>
           </>
         ) : (
-          <Breadcrumb spacing={{ md: "3vw", lg: "4vw" }} separator=" ">
+          <Breadcrumb
+            spacing={{ md: "3vw", lg: "3vw", xl: "4vw" }}
+            separator=""
+          >
             <BreadcrumbItem
               fontWeight="700"
               color="#E53E3E"
@@ -168,7 +168,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#home"
@@ -184,13 +184,13 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#aboutMe"
                 onClick={() => scrollToSection(aboutRef)}
               >
-                About Me
+                About
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem
@@ -200,13 +200,13 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#mySkills"
                 onClick={() => scrollToSection(skillsRef)}
               >
-                My Skills
+                Skills
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem
@@ -216,7 +216,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#experience"
@@ -232,13 +232,13 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#myProjects"
                 onClick={() => scrollToSection(projectsRef)}
               >
-                My Projects
+                Projects
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem
@@ -248,7 +248,7 @@ const Navbar = () => {
                 background: "#FFFFFF",
                 color: "black",
               }}
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href="#contact"
@@ -265,7 +265,7 @@ const Navbar = () => {
                 color: "black",
               }}
               className="vibrate-1"
-              fontSize={{md:"15px",lg:"20px"}}
+              fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
                 href={MyResume}

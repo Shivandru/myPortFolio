@@ -14,7 +14,7 @@ const Home = () => {
     "bridges between design and functionality",
   ];
   return (
-    <Box w="100%" h="70vh" borderBottom="1px solid #CBD5E0">
+    <Box w="100%" h="auto" borderBottom="1px solid #CBD5E0" pb="200px">
       <Flex
         w="100%"
         h={{ base: "auto", md: "auto", lg: "auto" }}
@@ -22,6 +22,7 @@ const Home = () => {
         direction={{ base: "column", md: "column", lg: "row" }}
         align={{ base: "center", md: "center", lg: "center" }}
         mt="15vh"
+        wrap="wrap"
       >
         <Center
           w={{ base: "70%", md: "70%", lg: "50%" }}
@@ -29,8 +30,8 @@ const Home = () => {
         >
           <Image
             src={myPic1}
-            w={{ base: "60%", md: "60%", lg: "50%" }}
-            h={{ base: "50%", md: "50%", lg: "70%" }}
+            w={{ base: "60%", md: "60%", lg: "30%", xl: "40%" }}
+            h={{ base: "50%", md: "50%", lg: "50%", xl: "60%" }}
             objectFit="cover"
             borderRadius="50%"
             border="3px solid black"
@@ -50,6 +51,7 @@ const Home = () => {
             w="50px"
             h="50px"
           />
+
           <Text ml="1vw">
             I am
             <Text
@@ -62,15 +64,6 @@ const Home = () => {
               Shivandru
             </Text>
           </Text>
-        </Box>
-        <Box
-          h="auto"
-          w="450px"
-          textAlign={{ base: "center", md: "center", lg: "left" }}
-          position={{ base: "relative", md: "relative", lg: "relative" }}
-          right={{ lg: "100px" }}
-          bottom={{ lg: "-70px" }}
-        >
           <Type strings={typingStrings} />
         </Box>
       </Flex>

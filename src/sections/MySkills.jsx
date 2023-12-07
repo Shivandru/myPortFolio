@@ -164,7 +164,7 @@ const MySkills = () => {
         </Box>
       </Flex>
 
-      <Box w={{ base: "50%", md: "50%", lg: "50%" }} m="auto" bg="#E53E3E">
+      <Box w={{ base: "50%", md: "50%", lg: "50%" }} m="auto" bg="#2D3748">
         <img
           id="github-streak-stats"
           width="100%"

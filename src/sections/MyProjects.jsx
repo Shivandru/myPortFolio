@@ -52,8 +52,9 @@ export const MyProjects = (props) => {
       <Flex
         direction={{ base: "column", md: "row", lg: "row" }}
         align={{ base: "center", md: "center", lg: "center" }}
+        justify={{ base: "center", md: "center", lg: "space-around" }}
       >
-        <Card maxW="sm" size={"lg"} m="auto">
+        <Card maxW="xs" size={"lg"}>
           <CardBody h="100px">
             <Slider style={{ width: "100%" }} {...settings}>
               <div>
@@ -98,11 +99,11 @@ export const MyProjects = (props) => {
           <CardFooter>
             <Stack
               direction="row"
-              spacing={{ base: "14vw", md: "12vw", lg: "7vw" }}
+              spacing={{ base: "5vw", md: "5vw", lg: "2vw" }}
             >
               <Button variant="solid" bg="#E53E3E">
                 <Link
-                  href="https://project-web-page-lkinp3ly6-shivandrus-projects.vercel.app/"
+                  href="https://project-web-page.vercel.app/"
                   target="_blank"
                 >
                   WebSite
@@ -119,7 +120,7 @@ export const MyProjects = (props) => {
             </Stack>
           </CardFooter>
         </Card>
-        <Card maxW="sm" mt={{ base: "30px", md: "30px", lg: "0px" }}>
+        <Card maxW="xs" mt={{ base: "30px", md: "30px", lg: "0px" }}>
           <CardBody>
             <Image
               src={firstProjectPic}
@@ -147,7 +148,7 @@ export const MyProjects = (props) => {
           <CardFooter>
             <Stack
               direction="row"
-              spacing={{ base: "14vw", md: "12vw", lg: "7vw" }}
+              spacing={{ base: "5vw", md: "5vw", lg: "2vw" }}
             >
               <Button variant="solid" bg="#E53E3E">
                 <Link
