@@ -20,7 +20,6 @@ import {
   Link,
 } from "@chakra-ui/react";
 import "./Navbar.css";
-import MyResume from "../assets/Shivandru-Resume.pdf";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useRef } from "react";
 import Home from "../sections/Home";
@@ -142,8 +141,8 @@ const Navbar = () => {
                     </Button>
                     <Button w="80%">
                       <Link
-                        href={MyResume}
-                        download={MyResume}
+                        href="Shivandru-Resume.pdf"
+                        download="Shivandru-Resume.pdf"
                         onClick={openResume}
                       >
                         Resume
@@ -268,8 +267,8 @@ const Navbar = () => {
               fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
-                href={MyResume}
-                download={MyResume}
+                href="Shivandru-Resume.pdf"
+                download="Shivandru-Resume.pdf"
                 onClick={openResume}
               >
                 Resume
