@@ -81,11 +81,12 @@ export const MyProjects = (props) => {
             </Slider>
             <Stack mt="6" spacing="3">
               <Heading size="md" textAlign="center">
-                GymWolf
+                GymWolf(Clone)
               </Heading>
               <Text textAlign="center">
-                Gymwolf is a web/mobile app-based workout tracking tool.The app
-                is available for Windows and Android.
+                Gymwolf is a workout tracking tool that helps you keep track of
+                your workouts and progress. One can register, Login and Navigate
+                through different pages.
               </Text>
               <Text color="#E53E3E" fontSize="xl" textAlign="center">
                 Tech-Stack:{" "}
