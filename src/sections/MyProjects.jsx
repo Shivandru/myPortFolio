@@ -153,7 +153,7 @@ export const MyProjects = (props) => {
             >
               <Button variant="solid" bg="#E53E3E">
                 <Link
-                  href="https://6569a3f923ead5782c89f046--moonlit-liger-145ca6.netlify.app/"
+                  href="https://moonlit-liger-145ca6.netlify.app/"
                   target="_blank"
                 >
                   WebSite
