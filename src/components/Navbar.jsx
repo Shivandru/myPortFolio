@@ -50,7 +50,7 @@ const Navbar = () => {
   };
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1Hn454DI5qNlDPIDHgHhAOuxI86YiBnMw/view?usp=sharing",
+      "https://drive.google.com/file/d/1aZ34EUxHkhxYdRJNQbz3nLq0moVxdmNq/view?usp=sharing",
       "_blank"
     );
   };
@@ -141,8 +141,8 @@ const Navbar = () => {
                     </Button>
                     <Button w="80%">
                       <Link
-                        href="Shivandru-MyResume.pdf"
-                        download="Shivandru-MyResume.pdf"
+                        href="Shivandru-Resume-FullStackWebDeveloper.pdf"
+                        download="Shivandru-Resume-FullStackWebDeveloper.pdf"
                         onClick={openResume}
                       >
                         Resume
@@ -267,8 +267,8 @@ const Navbar = () => {
               fontSize={{ md: "15px", lg: "20px" }}
             >
               <BreadcrumbLink
-                href="Shivandru-MyResume.pdf"
-                download="Shivandru-MyResume.pdf"
+                href="Shivandru-Resume-FullStackWebDeveloper.pdf"
+                download="Shivandru-Resume-FullStackWebDeveloper.pdf"
                 onClick={openResume}
               >
                 Resume

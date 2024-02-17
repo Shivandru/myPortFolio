@@ -18,15 +18,17 @@ const MySkills = () => {
       <Flex
         pt="30px"
         w="100%"
-        h="100%"
+        h="auto"
+        // border="1px solid black"
         justify={{ base: "center", md: "center", lg: "space-around" }}
         direction={{ base: "column", md: "row", lg: "row" }}
         align={{ base: "center", md: "center", lg: "center" }}
         className="flip-in-ver-right"
       >
         <Box
-          w="47%"
-          h="100%"
+          w={["90%", "90%", "47%", "47%"]}
+          h="auto"
+          // border="1px solid black"
           borderRight={{
             base: "none",
             md: "2px solid black",
@@ -40,8 +42,9 @@ const MySkills = () => {
           }}
           pb={{ base: "3vh", md: "0px", lg: "0px" }}
           mb={{ base: "3vh", md: "0px", lg: "0px" }}
+          p="1rem"
         >
-          <SimpleGrid columns={2} spacing={10}>
+          <SimpleGrid columns={2} spacing={10} p="1rem">
             <Box height="80px" m="auto" className="heartbeat">
               <Image
                 src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png"
@@ -65,9 +68,9 @@ const MySkills = () => {
             </Box>
             <Box height="80px" m="auto" className="heartbeat">
               <Image
-                src="https://cdn-icons-png.flaticon.com/128/3459/3459528.png"
+                src="https://th.bing.com/th?id=OIP.o8ubNKazDVWgRKfCY1iB7gHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
                 alt="langLogo"
-                w="80px"
+                w="100px"
               />
             </Box>
             <Box height="80px" m="auto" className="heartbeat">
@@ -79,14 +82,45 @@ const MySkills = () => {
             </Box>
             <Box height="80px" m="auto" className="heartbeat">
               <Image
-                src="https://th.bing.com/th?id=OIP.eyV7aeQb_jzUNTlEusKAqwHaDt&w=349&h=174&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                src="https://th.bing.com/th/id/OIP.S-SYtYzIhgPRnmRd8yWH4gAAAA?rs=1&pid=ImgDetMain"
                 alt="langLogo"
                 w="170px"
               />
             </Box>
+            <Box height="80px" m="auto" className="heartbeat">
+              <Image
+                src="https://www.bing.com/th?id=OIP.a8eN4gHZn8o0MmiJK2K0xwHaFj&w=194&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="langLogo"
+                w="140px"
+              />
+            </Box>
+            <Box height="auto" m="auto" className="heartbeat">
+              <Image
+                src="https://th.bing.com/th?id=OIP.5gf2JQQmWla-GU-WXTrGcgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                w="150px"
+              />
+            </Box>
+            <Box height="80px" m="auto" mb="1rem" className="heartbeat">
+              <Image
+                src="https://th.bing.com/th?id=OIP.9x7e2pdMM60WzQHZPlTiFwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                w="170px"
+              />
+            </Box>
+            <Box height="80px" m="auto" mb="1rem" className="heartbeat">
+              <Image
+                src="https://th.bing.com/th?id=OIP.fFX2gafo9PEYiCkimNnwXAHaG6&w=258&h=241&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                w="100px"
+              />
+            </Box>
+            <Box height="80px" m="auto" mb="1rem" className="heartbeat">
+              <Image
+                src="https://th.bing.com/th?id=OIP.Jed-UVwaIqf16oq5f8ATDQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                w="150px"
+              />
+            </Box>
           </SimpleGrid>
         </Box>
-        <Box w="47%" h="100%">
+        <Box w={["90%", "90%", "47%", "47%"]} h="100%">
           <SimpleGrid columns={2} spacing={10}>
             <Box height="80px" m="auto" className="heartbeat">
               <Image
@@ -126,6 +160,13 @@ const MySkills = () => {
             <Box height="80px" m="auto" className="heartbeat">
               <Image
                 src="https://th.bing.com/th?id=OIP.4w4kiDgVxmJpO0_jmzPj1AHaDe&w=350&h=164&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="langLogo"
+                w="170px"
+              />
+            </Box>
+            <Box height="80px" m="auto" className="heartbeat">
+              <Image
+                src="https://th.bing.com/th?id=OIP.G5uM86YiYDB0wqqCesxqIgHaEW&w=326&h=191&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
                 alt="langLogo"
                 w="170px"
               />

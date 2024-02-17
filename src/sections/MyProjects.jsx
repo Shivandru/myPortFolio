@@ -29,6 +29,12 @@ import projectPic8 from "../assets/projectPic8.png";
 import projectPic9 from "../assets/projectPic9.png";
 import projectPic10 from "../assets/projectPic10.png";
 import firstProjectPic from "../assets/firstProjectPic.png";
+import confirmPass from "../assets/confirmPass.png";
+import googleOAuth from "../assets/googleOAuth.png";
+import homePage from "../assets/homePage.png";
+import login from "../assets/login.png";
+import register from "../assets/register.png";
+import payments from "../assets/payments.png";
 export const MyProjects = (props) => {
   var settings = {
     dots: false,
@@ -113,6 +119,69 @@ export const MyProjects = (props) => {
               <Button variant="solid" bg="#E53E3E">
                 <Link
                   href="https://github.com/Shivandru/projectWebPage"
+                  target="_blank"
+                >
+                  Source Code
+                </Link>
+              </Button>
+            </Stack>
+          </CardFooter>
+        </Card>
+        <Card maxW="xs" size={"lg"}>
+          <CardBody h="100px">
+            <Slider style={{ width: "100%" }} {...settings}>
+              <div>
+                <Image src={payments} width="200px" m="auto" />
+              </div>
+              <div>
+                <Image src={login} width="200px" m="auto" />
+              </div>
+              <div>
+                <Image src={register} width="200px" m="auto" />
+              </div>
+              <div>
+                <Image src={confirmPass} width="200px" m="auto" />
+              </div>
+              <div>
+                <Image src={googleOAuth} width="200px" m="auto" />
+              </div>
+            </Slider>
+            <Stack mt="6" spacing="3">
+              <Heading size="md" textAlign="center">
+                JD e-commerce(Clone)
+              </Heading>
+              <Text textAlign="center">
+                My Project (JD.com[clone])is a full-stack, responsive e-commerce
+                web application built using the MERN stack (MongoDB, Express.js,
+                React.js, Node.js). It aims to provide a seamless shopping
+                experience for users across various devices.
+              </Text>
+              <Text color="#E53E3E" fontSize="xl" textAlign="center">
+                Tech-Stack:{" "}
+                <Text as="span" fontWeight="bold">
+                  HTML | CSS | Javascript | React | Chakra UI | node.js |
+                  mongoDB | express
+                </Text>
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <Stack
+              direction="row"
+              spacing={{ base: "5vw", md: "5vw", lg: "2vw" }}
+            >
+              <Button variant="solid" bg="#E53E3E">
+                <Link
+                  href="https://jdclone-shivandrus-projects.vercel.app/"
+                  target="_blank"
+                >
+                  WebSite
+                </Link>
+              </Button>
+              <Button variant="solid" bg="#E53E3E">
+                <Link
+                  href="https://github.com/Shivandru/FullStack-Project"
                   target="_blank"
                 >
                   Source Code

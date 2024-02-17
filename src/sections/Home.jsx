@@ -1,12 +1,16 @@
 import React from "react";
 import { Box, Flex, Image, Heading, Text, Center } from "@chakra-ui/react";
 import myPic1 from "../assets/myPic.jpeg";
+import myPicNew from "../assets/myPicNew.png";
 import "./Home.css";
 import Type from "../components/Type";
+import picBg from "../assets/picBg.png";
+import myPicNewremovebg from "../assets/myPicNewremovebg.png";
+import myPicNewBG from "../assets/myPicNewBG.png";
 const Home = () => {
   const typingStrings = [
+    "MERN-full-stack web development",
     "front-end React web developer",
-    "pursuing full-stack web development",
     "problem Solver",
     "Coding the future",
     "Transforming visions into code",
@@ -29,12 +33,15 @@ const Home = () => {
           h={{ base: "50%", md: "50%", lg: "100%" }}
         >
           <Image
-            src={myPic1}
+            src={myPicNewBG}
             w={{ base: "60%", md: "60%", lg: "30%", xl: "40%" }}
             h={{ base: "50%", md: "50%", lg: "50%", xl: "60%" }}
-            objectFit="cover"
-            borderRadius="50%"
-            border="3px solid black"
+            // objectFit="cover"
+            // position={"absolute"}
+            // boxShadow="0 0 10px 0 rgba(0, 0, 0, 0.2)"
+            // borderRadius="50%"
+            borderRadius={"30% 70% 70% 30% / 30% 30% 70% 70% "}
+            // border="3px solid black"
           />
         </Center>
         <Box w={{ base: "70%", md: "70%", lg: "50%" }} h="100%" align="center">
